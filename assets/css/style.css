@@ -1,21 +1,34 @@
 /* this is the style document for basic portfolio project, 2019-11-18 */
 
-html, body { /* this sets the hekight of the page to the hieigt of the viewport */
+html, body { /* this sets the height of the page to the height of the viewport */
   height: 100%;
 }
 body {
   margin: 0;
-  background-color: "lightblue";
+  /*background-color: "lightblue";*/
   display: flex;
   flex-direction: column;
 }
+
+div.bk {
+  /*background-image: url("portfolio-about-me.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-size: 100% 100%;
+*/
+}
 .content {
-  border: 2px solid black;
   flex: 1 0 auto;
+/*  background-image: url("portfolio-about-me.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-size: 100% 100%;
+*/
 }
 .footer {
   text-align: center;
-  background-color: blue;
   border: 2px solid red;
   flex-shrink: 0;
 }
