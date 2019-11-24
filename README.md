@@ -1,4 +1,5 @@
 # Basic-Portfolio
 A basic portfolio website
-Version 1.0 -- index.html page completed (with favicon), contact and portfolio pending.
-style.css file needs work -- need to move styles out of index.html
+Version 1.1 -- index.html page completed (with favicon), all styles in style.css, validated HTML and CSS.
+contact and portfolio pending.
+

@@ -1,12 +1,13 @@
 /* this is the style document for basic portfolio project, 2019-11-18 */
 
 a:link {
-  color:rgb(237, 242, 245);
+  color:#777777;
+  text-decoration:underline;
 }
 a:hover {
-  color:white;
+  color:yellow;
   background-color:green;
-  text-weight:bold;
+  font-weight:bold;
 }
 a:visited {
   color:#99a1c1;
@@ -22,17 +23,10 @@ body {
   flex-direction: column;
 }
 
-div.bk {
-  /*background-image: url("portfolio-about-me.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-size: 100% 100%;
-*/
-}
+
 .content {
   flex: 1 0 auto;
-  background-image: URL('assets/images/bk_LightGrayPaper.gif');
+  /*style="background-image: url('../images/bk_LightGrayPaper.gif');*/ /*THIS DOES NOT WORK HERE*/
   width:100%;       /*830px;*/
   height:50%;
   margin-left:auto;
@@ -43,48 +37,98 @@ div.bk {
   padding-right:12pt;
   height:50%;
   vertical-align:bottom;
-  border:2px solid blue;
+  border:1px solid #dddddd;
 }
 
 article.mainArticle { 
+  background-color:#ffffff;
   width:60%;
   height:80%;
   margin-left:auto;
   margin-right:auto;
   margin-top:50pt;
   overflow:scroll;
-  border:2px solid black;"
-
+  border:2px solid black;
 }
 
-div.pgheader {
+h1.arH1 {
+  color:#3399cc;
+  margin-left:5%;
+  font-weight:bold;
+  font-size:32pt;
+  font-family:serif;
+}
+
+img.portrait {
+ padding:0;
+ float:left; 
+ margin-right:20pt;
+ margin-left:20pt;
+}
+
+
+header.pgheader {
+  margin-top:12pt;
+  height:50px;
+}
+
+div.navlink {
+  float:right;
+  color:black;
+  font-size: 12pt;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align:left;
+  /*height:50px;*/
+  width:30%;
+  padding:0;
+  vertical-align:middle;
+  text-align:center;
+  margin-top:20pt;
+  margin-right:140pt;
+}
+
+div.pgheader  {
   background-color:#3399CC;
   color:white;
   font-weight:bold;
   font-size: 24pt;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   height:60px;
-  width:39%;
-  padding:0;
+  width:28%;
+  padding:5pt;
   vertical-align:middle;
   text-align:left;
-  padding-top12pt;
-  /*margin-top:20pt;*/
+  /*padding-top:12pt;*/
   margin-left:21%;
-  float:left;">
+  float:left;
 }
 
+div.divline1 { 
+  border:2px solid #99a1c1;
+  margin-bottom:20pt;
+}
 
 p.arbody {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14pt;
-  color:#99a1c1;
+  color:#777777;
   margin-left:12pt;
   margin-right:12pt;
   margin-bottom:12pt;
 }
 
+ul.arul {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14pt;
+  color:#99a1c1;
+  margin-left:20pt;
+  margin-right:12pt;
+  margin-bottom:0;
+}
+
 .footer {
+  COLOR:#3399cc;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   vertical-align:bottom;
   background-color:#666666;

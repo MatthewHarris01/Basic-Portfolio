@@ -11,58 +11,37 @@
   </head>
 
   <body>
-    <!-- THIS DIV HOLDS THE BACKGROUND -->
-
     <!-- header -->
-
-    <header style="margin-top:12pt;height:50px;">
+    <header class="pgheader">
       <!--NAME BOX IN HEADER-->
       <div class="pgheader">
         Matthew S. Harris
       </div>
 
       <!-- NAV LINKS -->
-      <div style="float:right;
-      color:black;
-      font-size: 12pt;
-      font-family:Verdana, Geneva, Tahoma, sans-serif;
-      text-align:right;
-      height:50px;
-      width:39%;
-      padding:0;
-      vertical-align:middle;
-      text-align:center;
-      margin-top:20pt;
-      margin-right:0;">
+      <div class="navlink">
 
         <a href="index.html" target="_self">About</a>&nbsp; | &nbsp;
         <a href="portfolio.html" target="_self">Portfolio</a>&nbsp; | &nbsp;
         <a href="contact.html" target="_self">Contact</a>
-      </div>
+      </div> <!-- end navlinks-->
 
     </header>
 
-    <div class="content" style="
-      background-image: url('assets/images/bk_LightGrayPaper.gif');">
-
+    <div class="content"
+     style="background-image: url('assets/images/bk_LightGrayPaper.gif');"> <!--BACKGROUN IMAGE DOES NOT WORK WHEN PLACED IN CSS FILE.-->
 
 
       <!-- INNER CONTENT DIV-->
       <article class=mainArticle>
 
-        <h1 style="color:#3399cc;
-          margin-left:5%;
-          font-weight:bold;
-          font-size:32pt;
-          font-family:serif;
-          ">About Me</h1>
-        <div style="border:2px solid #99a1c1;margin-bottom:20pt;:"></div> <!-- LINE UNDER HEADING AND ABOVE ARTICLE-->
+        <h1 class= "arH1">About Me</h1>
+        <div class=divline1></div> <!-- LINE UNDER HEADING AND ABOVE ARTICLE-->
 
 
 
         <!-- picture here-->
-        <img style="padding:0;float:left; margin-right:20pt;margin-left:20pt;"
-          src="assets/images/2012 Matthew Headshot for Web.jpg">
+        <img class="portrait" src="assets/images/2012_Matthew_portrait.jpg" alt="Portrait photo of Matthew Harris">
         <p class="arbody">
           Except for a brief (3 year) stint as a performing and studio musician, I have spent my life designing
           and developing databases and business applications, writing how-to books, consulting, teaching, and training.
@@ -86,8 +65,7 @@
         </p>
         <p class="arbody">
           I am also a skilled technical writer. I am sole author, co-author, or a contributing author of over 20
-          technical how-to books, most of which teach database programming in Visual Basic and MS Access VBA (Visual Basic for Appliations), and VBA
-           programming in MS Excel.
+          technical how-to books, most of which teach database programming in Visual Basic and MS Access VBA (Visual Basic for Applications), and VBA programming in MS Excel.
         </p>
         <p class="arbody"><strong> You can see more information about me, my skills, and my past projects at <a
               href="http://www.didjiman.com/business" target="blank">My Interactive Business Card</a>.</strong></p>
@@ -97,10 +75,10 @@
     </div> <!-- end content -->
 
     <!-- footer -->
-    <footer class="footer" style="vertical-align:middle;">
+    <footer class="footer">
       <p style="vertical-align:bottom;margin-top:4%;padding:0;">Copyright (&copy;) 2019 by Matthew S. Harris</p>
-    </footer>
-    </header>
+    </footer> <!-- END FOOTER -->
+    
 
   </body>
 
