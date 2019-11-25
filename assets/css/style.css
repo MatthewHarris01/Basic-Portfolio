@@ -145,3 +145,30 @@ button:hover {
   cursor: pointer;
   border:2px solid #3399cc;
 }
+
+table.pftable {
+  border-collapse:collapse;
+  border-spacing:12pt;
+  width:95%;
+  margin-left:auto;margin-right:auto;
+}
+
+td.pftablecell {
+  /*border: 1px solid blue;*/
+  text-align:center;
+  width:130px;
+  height:130px;
+  padding:12pt;
+  vertical-align:bottom;
+}
+
+div.pftablelabel {
+  background-color:#3399cc;
+  padding-top: 6pt;
+  padding-bottom: 6pt;
+  margin-bottom:6pt;
+  margin-right:6pt;
+  font-family:serif;
+  font-weight:normal;
+  color:white;  
+}
